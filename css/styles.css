@@ -11063,6 +11063,10 @@ body {
   border: 0;
 }
 
+.masthead h1.yellow-first-letter::first-letter {
+    color: yellow;
+}
+
 .masthead {
   position: relative;
   width: 100%;
