@@ -11063,8 +11063,6 @@ body {
   border: 0;
 }
 
-
-
 .masthead {
   position: relative;
   width: 100%;
@@ -11086,10 +11084,6 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
-    text-transform: capitalize; /* Add this line */
-}
-.masthead h1.yellow-first-letter::first-letter {
-    color: yellow;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
