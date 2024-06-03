@@ -11063,6 +11063,8 @@ body {
   border: 0;
 }
 
+
+
 .masthead {
   position: relative;
   width: 100%;
@@ -11075,17 +11077,19 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-
-.masthead .custom-heading {
+.masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
   line-height: 1.5rem;
   letter-spacing: 0.6rem;
-  text-transform: capitalize;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+    text-transform: capitalize; /* Add this line */
 }
-
-.masthead .yellow-first-letter {
-  color: yellow;
+.masthead h1.yellow-first-letter::first-letter {
+    color: yellow;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
