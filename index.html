@@ -18,8 +18,8 @@
 </head>
 <body id="page-top">
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container px-4 px-lg-5">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"  ">
+    <div class="container px-4 px-lg-5 text-white-50">
         <a class="navbar-brand" href="#page-top">SANI@neurIPS 2024</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -27,12 +27,14 @@
             Menu
             <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse" id="navbarResponsive"  >
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">Description</a></li>
+                <li class="nav-item"><a class="nav-link " href="#about">Description</a></li>
                 <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
                 <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
                 <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#advisors">Advisory board</a></li>
+
 
             </ul>
         </div>
@@ -62,7 +64,7 @@
 
 </header>
 <!-- About-->
-<section class="about-section" id="about">
+<section class="about-section" id="about" >
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-8 text-center">
@@ -70,20 +72,20 @@
             </div>
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center align-items-left">
-            <div class="col-lg-8">
+            <div class="col-lg-8" >
 
-                <p class="text-white-50">
+                <p class="text-white-50" style="margin-bottom: 5px;">
 
                     Recent dramatic increases in the scale of deep learning infrastructures, enabled by the introduction
                     of architectures such as the Transformer and Graph Neural Networks, have endowed them with
                     unprecedented adaptability and enabled their application in scientific problems as complex as
-                    predicting protein structure ~\citep{abramson_accurate_2024} and forecasting global climate
-                    shifts~\citep{lam_graphcast_2023}. Yet AI systems remain brittle to
-                    disturbances~\citep{su_one_2019,qu_minimalistic_2020} and require alarming amounts of human, energy
-                    and financial resources~\citep{strubell_energy_2019}.
+                    predicting protein structure [1] and forecasting global climate
+                    shifts [2]. Yet AI systems remain brittle to
+                    disturbances [3,4] and require alarming amounts of human, energy
+                    and financial resources [5].
                 </p>
 
-                <p class="text-white-50  justify-content-left">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
 
                     Biological organisms, on the other hand, solve complex problems like growing brains from a handful
                     of cells and regenerating limbs, through \textit{self-organisation}: collectives of simple
@@ -99,27 +101,140 @@
                     biology, neuroscience, complex systems, robotics and AI, inviting research at the intersection of
                     deep learning and self-organisation.
                 </p>
-                <p class="text-white-50  justify-content-left">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
 
                     Ideas from self-organisation have been at the core of AI since its inception. In 1986 Minsky stated
-                    in his book the Society of Mind~\cite{Minsky88} that “intelligence is an emergent property of
+                    in his book the Society of Mind [6] that “intelligence is an emergent property of
                     interactions between simpler parts, that, if you dig deep enough, are not themselves intelligent at
                     all”.
                     Ideas from neuroscience and biology have been impregnating AI, from connectionist
-                    models~\citep{McClelland2019ConnectionistM} to neuro-inspired plasticity
-                    mechanisms~\citep{hebb1949organization}, neuroevolution algorithms~\citep{stanley_designing_2019}
-                    and indirect encodings inspired by the genomic bottleneck found in
-                    nature~\citep{zador_critique_2019, ha_hypernetworks_2016, najarro_towards_2023}.
-                    Cellular Automata~\citep{vonNeumann1966} were inspired from the process of morphogenesis and, with
+                    models [7] to neuro-inspired plasticity
+                    mechanisms [8] and indirect encodings inspired by the genomic bottleneck found in
+                    nature[9, 10, 11].
+                    Cellular Automata [12] were inspired from the process of morphogenesis and, with
                     their more recent extension to Neural Cellular, have shown promising results in pattern formation in
-                    high dimensional spaces such as images~\citep{mordvintsev2020growing} and functional machines in
-                    Minecraft.
+                    high dimensional spaces such as images [13] and functional machines in
+                    Minecraft [14] .
                     This line of works has shown that such representations can improve generalisation and significantly
                     reduce the size of the optimisation space.
                 </p>
 
-                <p class="text-white-50  justify-content-left">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    The workshop on Self-organising Artificial and Natural Intelligence (SANI)  invites researchers to consider self-organisation in the age of deep learning and ponder on questions such as:
+                </p>
+
+                <ul class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                        <li> which biological principles can help us create robust and generalising ANNs?</li>
+                        <li> how do self-organisation processes evolve?</li>
+                        <li> which benchmarks/environments/tasks should we focus on in order to scale-up self-organising systems?</li>
+                        <li> how can we tame the complexity and training instability of self-organising encodings?</li>
+                        <li> which ANN representations (eg NCA, Graph Neural Network, Transformers) are the most promising? How can we discover these representations as nature did? </li>
+                        <li> how can we get artificial collectives where the whole is more than the sum of its parts? (eg multi-agent LLMs) </li>
+                        <li> Which other scientific domains could benefit from self-organizing AI models? </li>
+
+                </ul>
+
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    Despite this progress, replicating and understanding many self-organising process in nature, such as how brains self-assemble,
+                    remains out of reach [15, 16].
+                    The inherent complexity of self-organising systems renders them hard to train [17] and complicates their scaling to domains where current deep learning methods excel.
+                    Harnessing their power may require a paradigm shift from short-sighted, performance-driven optimization to approaches that favour diversity and long-term evolvability [18], as well as a reconceptualization of the benchmarks we use to evaluate intelligence in order to bring forth their benefits and limitations while keeping them relevant to the AI community.
+                    We hope that our workshop can provide a welcoming and inclusive forum for sharing knowledge between natural and artificial intelligence, sparking critical insights into how these two communities can benefit each other and sowing the seed for a longer-term dialogue.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
                     References
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [1] J. Abramson et al., “Accurate structure prediction of biomolecular interactions with AlphaFold 3,” Nature, pp. 1–3, May 2024, doi: 10.1038/s41586-024-07487-w.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [2] R. Lam et al., “GraphCast: Learning skillful medium-range global weather forecasting.” arXiv, Aug. 04, 2023. Accessed: May 31, 2024. [Online]. Available: http://arxiv.org/abs/2212.12794
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+
+                    [3] J. Su, D. V. Vargas, and S. Kouichi, “One pixel attack for fooling deep neural networks,” IEEE Trans. Evol. Computat., vol. 23, no. 5, pp. 828–841, Oct. 2019, doi: 10.1109/TEVC.2019.2890858.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [4] X. Qu, Z. Sun, Y.-S. Ong, A. Gupta, and P. Wei, “Minimalistic Attacks: How Little it Takes to Fool a Deep Reinforcement Learning Policy.” arXiv, Oct. 29, 2020. doi: 10.48550/arXiv.1911.03849.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [5] E. Strubell, A. Ganesh, and A. McCallum, “Energy and Policy Considerations for Deep Learning in NLP.” arXiv, Jun. 05, 2019. doi: 10.48550/arXiv.1906.02243.
+
+                </p>
+
+               <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [6] “The Society of Mind | BibSonomy.” Accessed: Jun. 03, 2024. [Online]. Available: https://www.bibsonomy.org/bibtex/208c1be53a1626d25311f7de4596f19a5/flint63
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [7] M. S. C. Thomas and J. L. McClelland, “Connectionist models of cognition,” in The Cambridge handbook of computational psychology, New York, NY, US: Cambridge University Press, 2008, pp. 23–58. doi: 10.1017/CBO9780511816772.005.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [8] D. O. Hebb, The organization of behavior; a neuropsychological theory. in The organization of behavior; a neuropsychological theory. Oxford, England: Wiley, 1949, pp. xix, 335.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [9] A. M. Zador, “A critique of pure learning and what artificial neural networks can learn from animal brains,” Nat Commun, vol. 10, no. 1, p. 3770, Aug. 2019, doi: 10.1038/s41467-019-11786-6.
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [10] D. Ha, A. Dai, and Q. V. Le, “HyperNetworks.” arXiv, Dec. 01, 2016. doi: 10.48550/arXiv.1609.09106.
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [11] E. Najarro, S. Sudhakaran, and S. Risi, “Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs.” arXiv, Jul. 16, 2023. Accessed: Oct. 03, 2023. [Online]. Available: http://arxiv.org/abs/2307.08197
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [12] J. V. Neumann and A. W. Burks, Theory of Self-Reproducing Automata. USA: University of Illinois Press, 1966.
+
+                </p>
+
+                 <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                   [13] A. Mordvintsev, E. Randazzo, E. Niklasson, and M. Levin, “Growing Neural Cellular Automata,” Distill, vol. 5, no. 2, p. 10.23915/distill.00023, Feb. 2020, doi: 10.23915/distill.00023.
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+
+                    [14] S. Sudhakaran et al., “Growing 3D Artefacts and Functional Machines with Neural Cellular Automata.” arXiv, Jun. 04, 2021. doi: 10.48550/arXiv.2103.08737.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+
+                [15] P. R. Hiesinger, The Self-Assembling Brain: How Neural Networks Grow Smarter. Princeton University Press, 2021. doi: 10.2307/j.ctv191kwz2.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+
+                [16] C. Summerfield, Natural general intelligence: how understanding the brain can help us build AI, First edition. Oxford, United Kingdom ; New York, NY: Oxford University Press, 2023.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+                [17] “The Future of Artificial Intelligence is Self-Organizing and Self-Assembling – Sebastian Risi.” Accessed: Jun. 03, 2024. [Online]. Available: https://sebastianrisi.com/self_assembling_ai/
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+
+                [18] J. K. Pugh, L. B. Soros, and K. O. Stanley, “Quality Diversity: A New Frontier for Evolutionary Computation,” Front. Robot. AI, vol. 3, Jul. 2016, doi: 10.3389/frobt.2016.00040.
                 </p>
 
 
@@ -153,6 +268,25 @@
                     </h5>
                     <p class="text-black-50 mb-0"> Tony is an Alle Davis and Maxine Harrison Professor of Neurosciences .
                         He studies how circuitry in the brain gives rise to complex behaviors, </p>
+                </div>
+            </div>
+        </div>
+
+                <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/momennejad.png" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.momen-nejad.org/"> Ida Momennejad </a>
+                    </h4>
+                    <h5> Microsoft Research NYC
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        I'm a Principal Researcher at Microsoft Research NYC. In this role, I broadly focus on building and evaluating generative AI, inspired by my research in cognitive neuroscience, reinforcement learning, and NeuroAI.
+
+                        Specifically, I study how humans and AI build models of the world and use them in memory, exploration, & planning. I build and test brain & behavior inspired algorithms for learning & reasoning, e.g., AI for gaming with Xbox. My approach combines reinforcement learning, neural networks, large language models, & machine learning with behavioral experiments, fMRI, & electrophysiology
+                    </p>
                 </div>
             </div>
         </div>
@@ -231,24 +365,7 @@ Sabine is also President and Co-founder of Robohub.org, and executive trustee of
         </div>
 
 
-                <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
-            <div class="col-xl-3 col-lg-6 mr-3">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/momennejad.png" alt="..."/>
-            </div>
-            <div class="col-xl-8 col-lg-5">
-                <div class="featured-text text-left text-lg-left">
-                    <h4> <a href="https://www.momen-nejad.org/"> Ida Momennejad </a>
-                    </h4>
-                    <h5> Microsoft Research NYC
-                    </h5>
-                    <p class="text-black-50 mb-0">
-                        I'm a Principal Researcher at Microsoft Research NYC. In this role, I broadly focus on building and evaluating generative AI, inspired by my research in cognitive neuroscience, reinforcement learning, and NeuroAI.
 
-                        Specifically, I study how humans and AI build models of the world and use them in memory, exploration, & planning. I build and test brain & behavior inspired algorithms for learning & reasoning, e.g., AI for gaming with Xbox. My approach combines reinforcement learning, neural networks, large language models, & machine learning with behavioral experiments, fMRI, & electrophysiology
-                    </p>
-                </div>
-            </div>
-        </div>
 
     </div>
 
@@ -298,9 +415,39 @@ Sabine is also President and Co-founder of Robohub.org, and executive trustee of
 
 
 </section>
+<!-- Advisors -->
+<section class="projects-section bg-dark" id="advisors">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-2">
+                <h2 class="text-white mb-4">Advisors</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/risi.jpg" alt="..."/>
+                <h4> <a href="https://sebastianrisi.com/"> Sebastian Risi</a>
+                    </h4>
+            </div>
+            <div class="col-xl-3 col-lg-4 justify-content-center">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/jabaudon.jpeg" alt="..."/>
+                <h4> <a href="https://neurocenter-unige.ch/research-groups/denis-jabaudon/"> Denis Jabaudon</a>
+                    </h4>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</section>
 <!-- Footer-->
 <footer class="footer bg-black small text-center text-white-50">
-    <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div>
+    <div class="container px-4 px-lg-5">The organizing committee-2024</div>
 </footer>
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
