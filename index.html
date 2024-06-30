@@ -73,86 +73,99 @@
         <div class="row gx-4 gx-lg-5 justify-content-center align-items-left">
             <div class="col-lg-8" >
 
-                <p class="text-white-50" style="margin-bottom: 5px;">
+                <p class="text-white-50" style="margin-bottom: 15px;">
 
-                    Recent dramatic advances in the problem-solving capabilities and scale of Artificial Intelligence (AI) systems have improved
+                    Recent dramatic advances in the problem-solving capabilities and <span style ="color: white;"> scale of Artificial Intelligence (AI) systems </span> have improved
                     their performance in many AI domains [1,2,3] and enabled their successful application in challenging scientific problems,
                     such as protein structure prediction [4] and climate-shift forecasting [5].
                     Yet AI systems remain brittle to random disturbances and adversarial attacks [6,7], lack strong generalisation capabilities [8],
-                    and require alarming amounts of human, energy and financial resources [9].
+                    and <span style ="color: white;"> require alarming amounts of human, energy and financial resources [9] </span>.
 
 
                 </p>
 
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
-                    Biological systems, on the other hand, seem to have largely solved many of these issues.
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
+                    <span style ="color: white;">Biological systems</span>, on the other hand, seem to have largely solved many of these issues.
                     They are capable of developing into complex organisms from a few cells and regenerating limbs through highly energy-efficient processes shaped by evolution.
-                    They do so through \textit{self-organisation}: collectives of simple components interact locally with each other to give rise to macroscopic properties in the
+                    They do so through  <span style ="color: white;"> <i>self-organisation</i></span>: collectives of simple components interact locally with each other to give rise to macroscopic properties in the
                     absence of centralised control [10].
-                    This ability to self-organise renders organisms adaptive to their environments and robust to unexpected failures, as the redundancy built in the collective enables repurposing components, crucially, by leveraging the same self-organisation process that created the system in the first place.
-                    Can we harness such self-organisation processes for the benefit of modern AI? And can such nature-inspired AI systems prove useful tools for science and applications?
-                    Our workshop aims at discussing these questions at NeurIPS by bringing together experts from biology, neuroscience, complex systems, robotics and AI, inviting research at the intersection of AI and self-organisation.
-
+                    This ability to self-organise renders organisms adaptive to their environments and <span style ="color: white;"> robust to unexpected failures </span>, as the redundancy built in the collective enables repurposing components, crucially, by leveraging the same self-organisation process that created the system in the first place.
                 </p>
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
+                   <span style ="color: white;"><i> Can we harness such self-organisation processes for the benefit of modern AI?
+                       And can such nature-inspired AI systems prove useful tools for science and applications?</i></span>
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;" >
+                    Our workshop aims at discussing these questions at NeurIPS by bringing together experts from biology, neuroscience, complex systems, robotics and AI, inviting research at the intersection of AI and self-organisation.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
                     Self-organisation has had a significant influence in many ideas related to AI from the inception of the field to today.
-                    As Minsky stated in his book the Society of Mind [11], “intelligence is an emergent property of interactions between simpler parts, that,
-                    if you dig deep enough, are not themselves intelligent at all”.
+                    As Minsky stated in his book the Society of Mind [11], <i> “intelligence is an emergent property of interactions between simpler parts, that,
+                    if you dig deep enough, are not themselves intelligent at all” </i>.
                     The field of Cybernetics took heavy inspiration from how communication and feedback can be implemented in both animals and
                     machines [12].
                     Similarly, the study of neural networks in both Neuro and Cognitive Science have relied heavily on self-organising neuronal properties to explain both learning and representation
                     in the brain [13].
-                    For example, neuro-inspired plasticity mechanisms such as Hebbian learning leverage self-organisation to drive
+                    For example, <span style ="color: white;"> neuro-inspired plasticity mechanisms</span> such as Hebbian learning leverage self-organisation to drive
                     adaptation [14].
-                    Similarly, deep learning itself can be seen as way to drive self-organisation by using back-prop as a guiding signal [15].
+                    Similarly, deep learning itself can be seen as way to drive self-organisation by using <span style ="color: white;"> back-prop</span> as a guiding signal [15].
                     In Artificial Life (ALife), a field that searches not just for cognition, but for life as a whole, self-organisation is also
                     a core principle [16].
-                    For example, Cellular Automata [17] were inspired from the process of morphogenesis and agent-based models later employed in
+                    For example, <span style ="color: white;"> Cellular Automata</span> [17] were inspired from the process of morphogenesis and agent-based models later employed in
                     robotics were inspired from flocking behaviour [18].
                     More recently, concepts and models from ALife are increasingly influencing AI, showing that self-organisation can lead to the emergence
                     of complex behaviours when combined with deep learning.
-                    For example, the extension of CA to Neural CA has shown promising results in pattern formation in high dimensional spaces such
+                    For example, the extension of CA to <span style ="color: white;"> Neural CA</span> has shown promising results in pattern formation in high dimensional spaces such
                     as images [19] and functional machines in Minecraft [20].
-                    Indirect encodings inspired by the genomic bottleneck found in nature [21,22]
+                   <span style ="color: white;">  Indirect encodings inspired by the genomic bottleneck</span> found in nature [21,22]
                     have improved the robustness and generalisation of neural networks [23].
-                    In multi-agent systems such as groups of reinforcement learning or Large language Model (LLM) agents
+                    In multi-agent systems such as <span style ="color: white;"> groups of reinforcement learning or Large language Model (LLM) agents</span>
                     the collective exhibits emergent skills such as open-ended tool use [24] and
                     improved factuality and reasoning abilities [25].
                 </p>
 
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
                     Despite this progress, replicating and understanding many self-organising process in nature, such as how brains self-assemble
                     and how organs re-grow remain out of reach.
                     The inherent complexity of self-organising systems renders them hard to train
                     and complicates their scaling to domains where current deep learning methods excel.
-                    This raises two key questions for future research: 1) how can we integrate self-organisation principles into AI architectures,
-                    such as NCAs and Graph Neural Networks? 2) how can we train these novel architectures? Harnessing their power may require a paradigm shift from short-sighted,
+                    This raises two key questions for future research: <span style ="color: white;"> 1) how can we integrate self-organisation principles into AI architectures,
+                    such as NCAs and Graph Neural Networks? 2) how can we train these novel architectures? </span>
+                    Harnessing their power may require a paradigm shift from short-sighted,
                     performance-driven optimization to approaches that favour diversity and long-term evolvability,
                     as well as a reconceptualization of the benchmarks we use to evaluate intelligence in order to bring forth their benefits and limitations while keeping them relevant to the AI community.
-                    We hope that our workshop can provide a welcoming and diverse forum for discussing these questions, sowing the seed for a longer-term dialogue.
-
                     </p>
 
-                <ul class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 20px;">
 
-                        <li> which biological principles can help us create robust and generalising ANNs?</li>
-                        <li> how do self-organisation processes evolve?</li>
-                        <li> which benchmarks/environments/tasks should we focus on in order to scale-up self-organising systems?</li>
-                        <li> how can we tame the complexity and training instability of self-organising encodings?</li>
-                        <li> which ANN representations (eg NCA, Graph Neural Network, Transformers) are the most promising? How can we discover these representations as nature did? </li>
-                        <li> how can we get artificial collectives where the whole is more than the sum of its parts? (eg multi-agent LLMs) </li>
-                        <li> Which other scientific domains could benefit from self-organizing AI models? </li>
+                    We hope that our workshop can provide a welcoming and diverse forum for discussing these questions, sowing the seed for a longer-term dialogue.
+
+                    The workshop on Self-organising Artificial and Natural Intelligence (SANI)  invites researchers to consider self-organisation in the age of deep learning and ponder on questions such as:
+                    </p>
+
+                <ul class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
+
+                        <li style="margin-bottom: 15px;"> which biological principles can help us create robust and generalising ANNs?</li>
+                        <li style="margin-bottom: 15px;"> how do self-organisation processes evolve?</li>
+                        <li style="margin-bottom: 15px;"> which benchmarks/environments/tasks should we focus on in order to scale-up self-organising systems?</li>
+                        <li style="margin-bottom: 15px;"> how can we tame the complexity and training instability of self-organising encodings?</li>
+                        <li style="margin-bottom: 15px;"> which ANN representations (eg NCA, Graph Neural Network, Transformers) are the most promising? How can we discover these representations as nature did? </li>
+                        <li style="margin-bottom: 15px;"> how can we get artificial collectives where the whole is more than the sum of its parts? (eg multi-agent LLMs) </li>
+                        <li style="margin-bottom: 15px;"> Which other scientific domains could benefit from self-organizing AI models? </li>
 
                 </ul>
 
 
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
 
                   Motivated by these questions, we have invited speakers with diverse backgrounds and proposed an inter-disciplinary panel discussion that we hope will spark a fruitful exchange of ideas for the future of this research direction.
                 </p>
 
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
-                    References
+                <p class="text-white  justify-content-center" style="margin-bottom: 15px;" >
+                References
                 </p>
 
                 <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
@@ -278,25 +291,6 @@
 
                 </p>
 
-
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
-
-                [15] P. R. Hiesinger, The Self-Assembling Brain: How Neural Networks Grow Smarter. Princeton University Press, 2021. doi: 10.2307/j.ctv191kwz2.
-                </p>
-
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
-
-                [16] C. Summerfield, Natural general intelligence: how understanding the brain can help us build AI, First edition. Oxford, United Kingdom ; New York, NY: Oxford University Press, 2023.
-                </p>
-
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
-                [17] “The Future of Artificial Intelligence is Self-Organizing and Self-Assembling – Sebastian Risi.” Accessed: Jun. 03, 2024. [Online]. Available: https://sebastianrisi.com/self_assembling_ai/
-                </p>
-
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
-
-                [18] J. K. Pugh, L. B. Soros, and K. O. Stanley, “Quality Diversity: A New Frontier for Evolutionary Computation,” Front. Robot. AI, vol. 3, Jul. 2016, doi: 10.3389/frobt.2016.00040.
-                </p>
 
 
             </div>
@@ -472,8 +466,9 @@ Flack was previously founding director of University of Wisconsin, Madison's Cen
 <section class="projects-section bg-light" id="schedule">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-2">
+            <div class="col-lg-2" style="text-align: center;">
                 <h2 class="text-black mb-4">Schedule</h2>
+                <p> TBA </p>
             </div>
         </div>
     </div>
@@ -491,46 +486,39 @@ Flack was previously founding director of University of Wisconsin, Madison's Cen
     <div class="container px-4 px-lg-5">
 
         <!-- Featured Project Row-->
-        <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-3 col-lg-4 justify-content-center">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/andrew.jpg" alt="..."/>
-                <h4> <a href="https://daia99.github.io/"> Andrew Dai</a>
-                    </h4>
-            </div>
-            <div class="col-xl-3 col-lg-4 justify-content-center">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/eyvind.jpg" alt="..."/>
-                <h4> <a href="https://eyvind.me/"> Eyvind Niklasson</a>
-                    </h4>
-            </div>
-            <div class="col-xl-3 col-lg-4 justify-content-center">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/nisioti.jpg" alt="..."/>
-                <h4> <a href="https://eleninisioti.github.io/"> Eleni Nisioti</a>
-                    </h4>
-            </div>
-            <div class="col-xl-3 col-lg-4 justify-content-center">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/etcheverry.jpg" alt="..."/>
-                <h4> <a href="https://mayalenetcheverry.com/"> Mayalen Etcheverry</a>
-                    </h4>
-            </div>
-            <div class="col-xl-3 col-lg-4 justify-content-center">
-                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/milton.jpg" alt="..."/>
-             <h4> <a href="https://scholar.google.es/citations?user=mTcxP70AAAAJ&hl=en"> Milton Montero</a>
-                    </h4>
-            </div>
-
-
-
+    <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
+        <div class="col-xl-3 col-lg-4"  style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/andrew.jpg" alt="..."/>
+            <h4><a href="https://daia99.github.io/">Andrew  <br> Dai</a></h4>
         </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/eyvind.jpg" alt="..."/>
+            <h4><a href="https://eyvind.me/">Eyvind <br> Niklasson</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/nisioti.jpg" alt="..."/>
+            <h4><a href="https://eleninisioti.github.io/">Eleni <br> Nisioti</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/etcheverry.jpg" alt="..."/>
+            <h4><a href="https://mayalenetcheverry.com/"> Mayalen <br> Etcheverry</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/milton.jpg" alt="..."/>
+            <h4><a href="https://scholar.google.es/citations?user=mTcxP70AAAAJ&hl=en">Milton <br> Montero</a></h4>
+        </div>
+    </div>
+
     </div>
 
 
 </section>
 <!-- Advisors -->
-<section class="projects-section bg-dark" id="advisors">
+<section class="projects-section bg-white" id="advisors">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-lg-2">
-                <h2 class="text-white mb-4">Advisors</h2>
+                <h2 class="text-black mb-4">Advisory board</h2>
             </div>
         </div>
     </div>
@@ -541,27 +529,27 @@ Flack was previously founding director of University of Wisconsin, Madison's Cen
 
         <!-- Featured Project Row-->
         <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
-            <div class="col-xl-3 col-lg-4 justify-content-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
                 <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/alex.png" alt="..."/>
-                <h4> <a href="https://znah.net/"> Alexander Mordvintsev</a>
+                <h4> <a href="https://znah.net/"> Alexander <br> Mordvintsev</a>
                     </h4>
             </div>
 
-            <div class="col-xl-3 col-lg-4 justify-content-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
                 <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/jabaudon.jpeg" alt="..."/>
-                <h4> <a href="https://neurocenter-unige.ch/research-groups/denis-jabaudon/"> Denis Jabaudon</a>
+                <h4> <a href="https://neurocenter-unige.ch/research-groups/denis-jabaudon/"> Denis <br> Jabaudon</a>
                     </h4>
             </div>
 
-            <div class="col-xl-3 col-lg-4 justify-content-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
                 <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/payam.jpg" alt="..."/>
-                <h4> <a href="https://real.itu.dk/people/payam-zahadat/"> Payam Zahadat </a>
+                <h4> <a href="https://real.itu.dk/people/payam-zahadat/"> Payam <br> Zahadat </a>
                     </h4>
             </div>
 
-            <div class="col-xl-3 col-lg-4 justify-content-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
                 <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/risi.jpg" alt="..."/>
-                <h4> <a href="https://sebastianrisi.com/"> Sebastian Risi</a>
+                <h4> <a href="https://sebastianrisi.com/"> Sebastian <br> Risi</a>
                     </h4>
             </div>
 
