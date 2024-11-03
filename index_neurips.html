@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title> EvoSelf workshop, Gecco 2025</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5 text-white-50">
+        <a class="navbar-brand" href="#page-top">EvoSelf workshop, Gecco 2025</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive"  >
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link " href="#about">Description</a></li>
+                <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#advisors">Advisory board</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-left">
+        <div class="d-flex justify-content-left">
+            <div class="text-left">
+                <h1 class="mx-auto my-0 text-white">
+                    <p><span style="color: yellow;">Evo</span>lving</p>
+                    <p><span style="color: yellow;">Self</span>-organisation</p>
+
+                </h1>
+                <h2 class="my-0 text-white">
+                    <p> how collectives emerge, self-regulate and adapt guided by evolution  </p>
+                </h2>
+            </div>
+        </div>
+
+    </div>
+
+
+</header>
+<!-- About-->
+<section class="about-section" id="about" >
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white mb-4">Workshop description</h2>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center align-items-left">
+            <div class="col-lg-8" >
+
+                <p class="text-white-50" style="margin-bottom: 15px;">
+
+                    Recent dramatic advances in the problem-solving capabilities and <span style ="color: white;"> scale of Artificial Intelligence (AI) systems </span>  have enabled their successful application in challenging real-world scientific
+                    and engineering problems (Abramson et al 2024, Lam et al 2023)). Yet these systems remain brittle to small disturbances
+                    and adversarial attacks (Su et al 2019, Cully 2014), lack human-level generalisation capabilities (Chollet 2019), and <span style ="color: white;"> require alarming amounts of human, energy and financial resources [9] </span> (Strubel et al 2019).
+
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
+                    <span style ="color: white;">Biological systems</span>, on the other hand, seem to have largely solved many of these issues.
+                    They are capable of developing into complex organisms from a few cells and regenerating limbs through highly energy-efficient processes shaped by evolution.
+                    They do so through  <span style ="color: white;"> <i>self-organisation</i></span>: collectives of simple components interact locally with each other to give rise to macroscopic properties in the
+                    absence of centralised control [10].
+                    This ability to self-organise renders organisms adaptive to their environments and <span style ="color: white;"> robust to unexpected failures </span>, as the redundancy built in the collective enables repurposing components, crucially, by leveraging the same self-organisation process that created the system in the first place.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
+                   <span style ="color: white;"><i> Can we harness such self-organisation processes for the benefit of modern AI?
+                       And can such nature-inspired AI systems prove useful tools for science and applications?</i></span>
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;" >
+Self-organisation lies at the core of many computational systems that exhibit properties such as robustness, adaptability, scalability and open-ended dynamics with examples such Cellular Automata (Von Neumann 1966), a model inspired from the process of morphogenesis, and their more recent counterpart, Neural Cellular Automata, showing promising results in pattern formation in high dimensional spaces such as images (Mordvintsev et al 2020)}, indirect encodings of neural networks inspired from morphogenesis such as cellular encodings (Gruau 1992), Hyperneat (Stanley et al 2009), Hypernetworks (Ha 2016) and HypeNCAs (Najarro et al 2022), showing improved robustness and generalisation.                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
+  Guiding self-organising systems through evolution is a long-standing and promising practise, yet the inherent complexity of the dynamics of these systems complicates their scaling to domains where gradient-based methods or simpler models excel (Risi 2021). If we view self-organising systems as genotype to phenotype mappings, we can leverage techniques developed in the evolutionary optimization community to understand how they alter evolutionary dynamics and guide them better.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
+Our workshop aims at inviting experts to submit their work and join our discussions on questions such as:
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 20px;">
+
+                    We hope that our workshop can provide a welcoming and diverse forum for discussing these questions, sowing the seed for a longer-term dialogue.
+
+                    The workshop on Self-organising Artificial and Natural Intelligence (SANI)  invites researchers to consider self-organisation in the age of deep learning and ponder on questions such as:
+                    </p>
+
+                <ul class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
+
+                        <li style="margin-bottom: 15px;"> How can we evolve artificial systems that exhibit robustness, generalisation and adaptability?</li>
+                        <li style="margin-bottom: 15px;"> How can we analyse the trainability/navigability of self-organising systems?</li>
+                        <li style="margin-bottom: 15px;"> Which benchmarks/environments will reveal the benefit of self-organising systems?</li>
+                        <li style="margin-bottom: 15px;"> Which scientific and engineering domains would benefit from the development of such systems?</li>
+
+                </ul>
+
+                <p class="text-white  justify-content-center" style="margin-bottom: 15px;" >
+                References
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [1] D. Silver et al., “A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play,” Science, vol. 362, no. 6419, pp. 1140–1144, Dec. 2018, doi: 10.1126/science.aar6404.
+
+                </p>
+
+               <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [2] Open Ended Learning Team et al., “Open-Ended Learning Leads to Generally Capable Agents.” arXiv, Jul. 31, 2021. doi: 10.48550/arXiv.2107.12808.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [3] J. Wei et al., “Emergent Abilities of Large Language Models,” arXiv.org. Accessed: Jun. 06, 2024. [Online]. Available: https://arxiv.org/abs/2206.07682v2
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [4] J. Abramson et al., “Accurate structure prediction of biomolecular interactions with AlphaFold 3,” Nature, pp. 1–3, May 2024, doi: 10.1038/s41586-024-07487-w.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [5] R. Lam et al., “GraphCast: Learning skillful medium-range global weather forecasting.” arXiv, Aug. 04, 2023. Accessed: May 31, 2024. [Online]. Available: http://arxiv.org/abs/2212.12794
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [6] J. Su, D. V. Vargas, and S. Kouichi, “One pixel attack for fooling deep neural networks,” IEEE Trans. Evol. Computat., vol. 23, no. 5, pp. 828–841, Oct. 2019, doi: 10.1109/TEVC.2019.2890858.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [7] X. Qu, Z. Sun, Y.-S. Ong, A. Gupta, and P. Wei, “Minimalistic Attacks: How Little it Takes to Fool a Deep Reinforcement Learning Policy.” arXiv, Oct. 29, 2020. doi: 10.48550/arXiv.1911.03849.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [8] F. Chollet, “On the Measure of Intelligence.” arXiv, Nov. 25, 2019. doi: 10.48550/arXiv.1911.01547.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [9] E. Strubell, A. Ganesh, and A. McCallum, “Energy and Policy Considerations for Deep Learning in NLP.” arXiv, Jun. 05, 2019. doi: 10.48550/arXiv.1906.02243.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                    [10] S. Camazine, J.-L. Deneubourg, N. R. Franks, J. Sneyd, G. Theraulaz, and E. Bonabeau, Self-Organization in Biological Systems, vol. 38. Princeton University Press, 2001. doi: 10.2307/j.ctvzxx9tx.
+                </p>
+
+               <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [11] “The Society of Mind | BibSonomy.” Accessed: Jun. 03, 2024. [Online]. Available: https://www.bibsonomy.org/bibtex/208c1be53a1626d25311f7de4596f19a5/flint63
+
+                </p>
+               <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [12] N. Wiener, Cybernetics, or control and communication in the animal and the machine, 2nd ed. in Cybernetics, or control and communication in the animal and the machine, 2nd ed. Cambridge,  MA,  US: Boston Review, 1961, pp. xvii, 212. doi: 10.1037/13140-000.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [13] M. S. C. Thomas and J. L. McClelland, “Connectionist models of cognition,” in The Cambridge handbook of computational psychology, New York, NY, US: Cambridge University Press, 2008, pp. 23–58. doi: 10.1017/CBO9780511816772.005.
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [14] D. O. Hebb, The organization of behavior; a neuropsychological theory. in The organization of behavior; a neuropsychological theory. Oxford, England: Wiley, 1949, pp. xix, 335.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [15] E. Randazzo, E. Niklasson, and A. Mordvintsev, “MPLP: Learning a Message Passing Learning Protocol.” arXiv, Jul. 03, 2020. doi: 10.48550/arXiv.2007.00970.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [16] W. Aguilar, G. Santamaría-Bonfil, T. Froese, and C. Gershenson, “The Past, Present, and Future of Artificial Life,” Front. Robot. AI, vol. 1, Oct. 2014, doi: 10.3389/frobt.2014.00008.
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [17] J. V. Neumann and A. W. Burks, Theory of Self-Reproducing Automata. USA: University of Illinois Press, 1966.
+
+                </p>
+
+               <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                [18] C. W. Reynolds, “Flocks, herds and schools: A distributed behavioral model,” SIGGRAPH Comput. Graph., vol. 21, no. 4, pp. 25–34, Aug. 1987, doi: 10.1145/37402.37406.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+                   [19] A. Mordvintsev, E. Randazzo, E. Niklasson, and M. Levin, “Growing Neural Cellular Automata,” Distill, vol. 5, no. 2, p. 10.23915/distill.00023, Feb. 2020, doi: 10.23915/distill.00023.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;" >
+
+                    [20] S. Sudhakaran et al., “Growing 3D Artefacts and Functional Machines with Neural Cellular Automata.” arXiv, Jun. 04, 2021. doi: 10.48550/arXiv.2103.08737.
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [21] A. M. Zador, “A critique of pure learning and what artificial neural networks can learn from animal brains,” Nat Commun, vol. 10, no. 1, p. 3770, Aug. 2019, doi: 10.1038/s41467-019-11786-6.
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [22] D. Ha, A. Dai, and Q. V. Le, “HyperNetworks.” arXiv, Dec. 01, 2016. doi: 10.48550/arXiv.1609.09106.
+
+                </p>
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                    [23] E. Najarro, S. Sudhakaran, and S. Risi, “Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs.” arXiv, Jul. 16, 2023. Accessed: Oct. 03, 2023. [Online]. Available: http://arxiv.org/abs/2307.08197
+
+                </p>
+
+                <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                [24] B. Baker et al., “Emergent Tool Use From Multi-Agent Autocurricula,” presented at the International Conference on Learning Representations, 2020. Accessed: May 19, 2020. [Online]. Available: https://openreview.net/forum?id=SkxpxJBKwS
+
+                </p>
+
+                  <p class="text-white-50  justify-content-left" style="margin-bottom: 5px;">
+
+                [25] Y. Du, S. Li, A. Torralba, J. B. Tenenbaum, and I. Mordatch, “Improving Factuality and Reasoning in Language Models through Multiagent Debate.” arXiv, May 23, 2023. doi: 10.48550/arXiv.2305.14325.
+
+                </p>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Speakers -->
+<section class="projects-section bg-light" id="speakers">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-2">
+                <h2 class="text-black mb-4">Speakers</h2>
+
+                TBA
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+
+        <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/zador.png" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.cshl.edu/research/faculty-staff/anthony-zador/">Antony Zador</a>
+                    </h4>
+                    <h5> Cold Spring Harbor Laboratory
+                    </h5>
+                    <p class="text-black-50 mb-0"> Antony is the Alle Davis Harris Professor of Biology and Chair of Neuroscience at Cold Spring Harbor Laboratory, where his lab the studies the neural circuits underlying auditory decisions, the development of new technologies for sequencing the connectome and the application of insights from neuroscience to artificial intelligence.  </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/bert.jpg" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://chakazul.github.io/">Bert Chan</a>
+                    </h4>
+                    <h5> Google Deepmind, Japan
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        Bert is a Research Software Engineer at Google DeepMind, Japan. He holds an M.Sc. in Cognitive Science from Lund University, Sweden and a B.Sc. in Computer Science from CUHK, China. His work focuses on self-organising and open-ended systems. He created Lenia, a modern family of CA with a very active community at ALife.  </p>
+                </div>
+            </div>
+        </div>
+
+                <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/momennejad.png" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.momen-nejad.org/"> Ida Momennejad </a>
+                    </h4>
+                    <h5> Microsoft Research NYC
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        is a Principal Researcher at Microsoft Research, NYC., USA. She broadly focuses on studying how humans and AIs build models of the world and use them in memory, exploration and planning. To that end she combines approaches from Reinforcement Learning, neural networks, large language models \& machine learning with behavioral experiments and fMRI and electrophysiological measurements.
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+               <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/achterberg.jpeg" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.jachterberg.com/">Jascha Achterberg</a>
+                    </h4>
+                    <h5> University of Cambridge
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        is a PhD student on Neuroscience and AI Researcher  at the University of Cambridge and is about to embark on a post-doctoral position at the Department of Physiology, Anatomy and Genetics, University of Oxford. He studies how to combine large scale neuroscience data with artificial neural networks in order to understand which features underlie highly efficient learning and inference in brains and machines.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+                       <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/jessica.jpg" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.jachterberg.com/">Jessica Flack</a>
+                    </h4>
+                    <h5> Santa Fe Institute
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        Jessica is a professor at the Santa Fe Institute where she directs the Collective Computation Group. Her research focuses on the roles of information processing, coarse-graining, and collective computation in the emergence of robust structure and function in nature and society.
+Flack was previously founding director of University of Wisconsin, Madison's Center for Complexity and Collective Computation in the Wisconsin Institutes for Discovery
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/hiesinger.png" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.bcp.fu-berlin.de/en/biologie/arbeitsgruppen/neurobiologie/ag_hiesinger/mitarbeiter/leiter_sekretariat/hiesinger/index.html">Robin Hiesinger</a>
+                    </h4>
+                    <h5> Freie Universität Berlin
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        is a Professor of Neurobiology at Freie Universität Berlin. His lab studies the genetic basis of brain wiring and maintenance using genetic manipulations and \emph{in vivo} studies of biological neural networks during self-assembly. He has published the book The Self-Assembling Brain, where he discusses these questions and their relation to other fields of research such as Neuroscience, AI and Robotics.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/couzin.jpg" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://www.ab.mpg.de/person/98158/2736">Iain Couzin</a>
+                    </h4>
+                    <h5> Max Planck Institute of Animal Behavior
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        Iain is Director of the Department of Collective Behavior at the Max Planck Institute of Animal Behavior and a Full Professor at the University of Konstanz. His work aims to reveal the fundamental principles that underlie evolved collective behavior from insect swarms to fish schools and primate groups. He has received multiple awards, such as the Searle Scholar Award in 2008 and the Lagrange Prize in 2019
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row gx-0 mb-4 mb-lg-5 mr-3 ">
+            <div class="col-xl-3 col-lg-6 mr-3">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle mr-3" src="assets/img/hauert.jpg" alt="..."/>
+            </div>
+            <div class="col-xl-8 col-lg-5">
+                <div class="featured-text text-left text-lg-left">
+                    <h4> <a href="https://hauertlab.com/sabine-hauert/">Sabine Hauert</a>
+                    </h4>
+                    <h5> University of Bristol
+                    </h5>
+                    <p class="text-black-50 mb-0">
+                        Sabine is Reader (Associate Professor) of Swarm Engineering at the University of Bristol, UK. Her research focusses on creating robotic swarms which to solve problems at varying scales, from nanobots for cancer treatment, to larger robots for environmental monitoring or logistics.
+                        She holds senior positions of two non-profits dedicated to scientific outreach: Robohub.org and AIhub.org, being co-founder and current President of the former.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</section>
+
+<!-- Schedule -->
+
+<section class="projects-section bg-light" id="schedule">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-2" style="text-align: center;">
+                <h2 class="text-black mb-4">Schedule</h2>
+                <p> TBA </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Organizers -->
+<section class="projects-section bg-dark" id="organizers">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-2">
+                <h2 class="text-white mb-4">Organizers</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 px-lg-5">
+
+        <!-- Featured Project Row-->
+    <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
+        <div class="col-xl-3 col-lg-4"  style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/andrew.jpg" alt="..."/>
+            <h4><a href="https://daia99.github.io/">Andrew  <br> Dai</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/eyvind.jpg" alt="..."/>
+            <h4><a href="https://eyvind.me/">Eyvind <br> Niklasson</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/nisioti.jpg" alt="..."/>
+            <h4><a href="https://eleninisioti.github.io/">Eleni <br> Nisioti</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/etcheverry.jpg" alt="..."/>
+            <h4><a href="https://mayalenetcheverry.com/"> Mayalen <br> Etcheverry</a></h4>
+        </div>
+        <div class="col-xl-3 col-lg-5" style="max-width: 20%; text-align: center;">
+            <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/milton.jpg" alt="..."/>
+            <h4><a href="https://scholar.google.es/citations?user=mTcxP70AAAAJ&hl=en">Milton <br> Montero</a></h4>
+        </div>
+    </div>
+
+    </div>
+
+
+</section>
+<!-- Advisors -->
+<section class="projects-section bg-white" id="advisors">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-3">
+                <h2 class="text-black mb-4">Advisory board</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 px-lg-5">
+
+
+
+        <!-- Featured Project Row-->
+        <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/alex.png" alt="..."/>
+                <h4> <a href="https://znah.net/"> Alexander <br> Mordvintsev</a>
+                    </h4>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/jabaudon.jpeg" alt="..."/>
+                <h4> <a href="https://neurocenter-unige.ch/research-groups/denis-jabaudon/"> Denis <br> Jabaudon</a>
+                    </h4>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/payam.jpg" alt="..."/>
+                <h4> <a href="https://real.itu.dk/people/payam-zahadat/"> Payam <br> Zahadat </a>
+                    </h4>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 justify-content-center" style="max-width: 25%; text-align: center;">
+                <img class="img-fluid mb-3 mb-lg-0 rounded-circle" src="assets/img/risi.jpg" alt="..."/>
+                <h4> <a href="https://sebastianrisi.com/"> Sebastian <br> Risi</a>
+                    </h4>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+</section>
+<!-- Footer-->
+<footer class="footer bg-black small text-center text-white-50">
+    <div class="container px-4 px-lg-5">
+        <p> The organizing committee-2024. </p>
+        <p> Cover image: Growing diverse neurons with Neural Cellular Automata, Erwan Plantec. (Red are soma cells, blue are dendrite cells and green are axon cells.) </p>
+
+         </div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>
