@@ -33,11 +33,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive"  >
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link " href="#about">Description</a></li>
-                <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
-                <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link " href="#call">Call for papers</a></li>
                 <li class="nav-item"><a class="nav-link" href="#organizers">Organizers</a></li>
-
-
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -73,53 +71,126 @@
 
                 <p class="text-white-50" style="margin-bottom: 15px;">
 
-                    Recent dramatic advances in the problem-solving capabilities and <span style ="color: white;"> scale of Artificial Intelligence (AI) systems </span>  have enabled their successful application in challenging real-world scientific
-                    and engineering problems (Abramson et al 2024, Lam et al 2023)). Yet these systems remain brittle to small disturbances
-                    and adversarial attacks (Su et al 2019, Cully 2014), lack human-level generalisation capabilities (Chollet 2019), and <span style ="color: white;"> require alarming amounts of human, energy and financial resources </span> (Strubel et al 2019).
+                    Recent dramatic advances in the problem-solving capabilities and <span style ="color: white;">  scale of Artificial Intelligence (AI) systems </span> have enabled their successful
+                    application in challenging real-world scientific and engineering problems (Abramson et al 2024, Lam et al 2023). Yet these systems remain brittle
+                    to small disturbances and adversarial attacks (Su et al 2019, Cully 2014), lack human-level generalisation capabilities (Chollet 2019),
+                    and <span style ="color: white;">require alarming amounts of human, energy and financial resources </span>  (Strubel et al 2019).
 
 
                 </p>
 
                 <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
-                    <span style ="color: white;">Biological systems</span>, on the other hand, seem to have largely solved many of these issues.
+
+                    <span style ="color: white;"> Biological systems</span>, on the other hand, seem to have largely solved many of these issues.
                     They are capable of developing into complex organisms from a few cells and regenerating limbs through highly energy-efficient processes shaped by evolution.
-                    They do so through  <span style ="color: white;"> <i>self-organisation</i></span>: collectives of simple components interact locally with each other to give rise to macroscopic properties in the
-                    absence of centralised control [10].
-                    This ability to self-organise renders organisms adaptive to their environments and <span style ="color: white;"> robust to unexpected failures </span>, as the redundancy built in the collective enables repurposing components, crucially, by leveraging the same self-organisation process that created the system in the first place.
-                </p>
+                    They do so through <span style ="color: white;"> <i>self-organisation</i></span>: collectives of simple components interact locally with each other to give rise
+                    to macroscopic properties in the absence of centralised control (Camazine, 2001).
+                    This ability to self-organise renders organisms adaptive to their environments and <span style ="color: white;"> robust to unexpected failures</span>,
+                    as the redundancy built in the collective enables repurposing components, crucially, by leveraging the same self-organisation process that created the system in the first place.
+
+                                    </p>
 
                 <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;">
-                   <span style ="color: white;"><i> Can we harness such self-organisation processes for the benefit of modern AI?
-                       And can such nature-inspired AI systems prove useful tools for science and applications?</i></span>
+                  Self-organisation lies at the core of many computational systems that exhibit properties such as <span style ="color: white;"> robustness,
+                    adaptability, scalability and open-ended dynamics</span>. Some examples are <span style ="color: white;"> Cellular Automata </span> (Von Neumann 1966),
+                    <span style ="color: white;"> reaction-diffusion systems </span>(Turing 1992, Mordvintsev 2021 ), <span style ="color: white;"> particle systems </span> (Reynolds 1987, Mordvintsev)
+                    , <span style ="color: white;"> and Neural Cellular Automata </span>, showing promising results in pattern formation
+                    in high dimensional spaces such as images (Mordvintsev et al 2020).
+                    Examples from neuroevolution are indirect encodings of neural networks inspired from morphogenesis such as <span style ="color: white;"> cellular encodings</span> (Gruau 1992),
+                    <span style ="color: white;">  HyperNEAT </span> (Stanley et al 2009),
+                    <span style ="color: white;"> Hypernetworks </span> (Ha 2016), <span style ="color: white;"> HyperNCA </span> (Najarro et al 2022) and
+                        <span style ="color: white;"> Neural Developmental Programs </span> (Najarro et al 2023, Nisioti et al 2024),
+                    showing improved robustness and generalisation.
                 </p>
 
                 <p class="text-white-50  justify-content-left" style="margin-bottom: 30px;" >
-Self-organisation lies at the core of many computational systems that exhibit properties such as robustness, adaptability, scalability and open-ended dynamics. Some examples are
-                     <span style ="color: white;"> Cellular Automata </span>  (Von Neumann 1966),
-                    a model inspired from the process of morphogenesis, and their more recent counterpart, <span style ="color: white;"> Neural Cellular Automata </span>,
-                    showing promising results in pattern formation in high dimensional spaces such as images (Mordvintsev et al 2020)}, <span style ="color: white;"> indirect encodings </span>  of neural networks inspired from morphogenesis such as cellular encodings (Gruau 1992), Hyperneat (Stanley et al 2009), Hypernetworks (Ha 2016) and HypeNCAs (Najarro et al 2022), showing improved robustness and generalisation.                </p>
+                    <span style ="color: white;"> Guiding self-organising systems through evolution </span> is a long-standing and promising practise,
+                    yet the inherent complexity of the dynamics of these systems complicates their scaling to domains
+                    where gradient-based methods or simpler models excel (Risi 2021). If we view self-organising systems
+                    as genotype to phenotype mappings, we can leverage techniques developed in the evolutionary optimization community
+                    to understand how they alter evolutionary dynamics and guide them better.
+          </p>
 
                 <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
-  Guiding self-organising systems through evolution is a long-standing and promising practise,
-                    yet the <span style ="color: white;"> inherent complexity of the dynamics of these systems complicates their scaling </span>
-                     to
-                    domains where gradient-based methods or simpler models excel (Risi 2021).
-                    If we view self-organising systems as genotype to phenotype mappings, we can leverage techniques developed in the evolutionary optimization community to understand how they alter evolutionary dynamics and guide them better.
+                    The reverse is also possible: <span style ="color: white;"> evolution can emerge as an inherent property of a self-organising system </span> allowing
+                    us to study questions about the origin of life. Investigating under which conditions they appear, and the particular
+                    emergent evolutionary behaviours in these systems could afford insights applicable to existing artificial evolutionary
+                    approaches, or even directly provide an evolutionary substrate for learning tasks and achieving open-endedness.
+                    Early work in this direction (Ray 1992, Agüera y Arcas et al 2024, Fontana 1990, Adami et al 1994, Rasmussen et al 1991)
+                    has demonstrated emergent evolution in several computational substrates.
+                 </p>
+            </div>
+                <div class="col-lg-8 text-center">
+                <h2 class="text-white mb-4">References</h2>
+            </div>
+
+             <div class="row gx-4 gx-lg-5 justify-content-center align-items-left">
+            <div class="col-lg-8" >
+
+                <ul style="list-style-type: none; padding-left: 0;" class="text-white-50">
+  <li>J. Abramson et al., “Accurate structure prediction of biomolecular interactions with AlphaFold 3,” Nature, pp. 1–3, May 2024, doi: 10.1038/s41586-024-07487-w.</li>
+  <li>J. Su, D. V. Vargas, and S. Kouichi, “One pixel attack for fooling deep neural networks,” IEEE Trans. Evol. Computat., vol. 23, no. 5, pp. 828–841, Oct. 2019, doi: 10.1109/TEVC.2019.2890858.</li>
+  <li>R. Lam et al., “GraphCast: Learning skillful medium-range global weather forecasting,” Aug. 04, 2023, arXiv: arXiv:2212.12794. Accessed: May 31, 2024. [Online]. Available: http://arxiv.org/abs/2212.12794</li>
+  <li>A. Cully, J. Clune, D. Tarapore, and J.-B. Mouret, “Robots that can adapt like animals,” Nature, vol. 521, no. 7553, pp. 503–507, May 2015, doi: 10.1038/nature14422.</li>
+  <li>F. Chollet, “On the Measure of Intelligence,” Nov. 25, 2019, arXiv: arXiv:1911.01547. doi: 10.48550/arXiv.1911.01547.</li>
+  <li>E. Strubell, A. Ganesh, and A. McCallum, “Energy and Policy Considerations for Deep Learning in NLP,” Jun. 05, 2019, arXiv: arXiv:1906.02243. doi: 10.48550/arXiv.1906.02243.</li>
+  <li>S. Camazine, J.-L. Deneubourg, N. R. Franks, J. Sneyd, G. Theraulaz, and E. Bonabeau, Self-Organization in Biological Systems, vol. 38. Princeton University Press, 2001. doi: 10.2307/j.ctvzxx9tx.</li>
+  <li>A. Mordvintsev, E. Randazzo, and E. Niklasson, “Differentiable Programming of Reaction-Diffusion Patterns,” Jun. 22, 2021, arXiv: arXiv:2107.06862. doi: 10.48550/arXiv.2107.06862.</li>
+  <li>A. M. Turing, “The chemical basis of morphogenesis,” Bltn Mathcal Biology, vol. 52, no. 1, pp. 153–197, Jan. 1990, doi: 10.1007/BF02459572.</li>
+  <li>C. W. Reynolds, “Flocks, herds and schools: A distributed behavioral model,” in Proceedings of the 14th annual conference on Computer graphics and interactive techniques, in SIGGRAPH ’87. New York, NY, USA: Association for Computing Machinery, Aug. 1987, pp. 25–34. doi: 10.1145/37401.37406.</li>
+  <li>Alexander Mordvintsev. Self-Organizing Particle Swarm. https://znah.net/icra23/</li>
+  <li>B. A. y Arcas et al., “Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction,” Aug. 02, 2024, arXiv: arXiv:2406.19108. doi: 10.48550/arXiv.2406.19108.</li>
+  <li>W. Fontana, “Algorithmic Chemistry: A model for functional self-organization.”</li>
+  <li>C. Adami and C. T. Brown, “Evolutionary Learning in the 2D Artificial Life System ‘Avida,’” May 16, 1994, arXiv: arXiv:adap-org/9405003. doi: 10.48550/arXiv.adap-org/9405003.</li>
+  <li>S. Rasmussen, C. Knudsen, R. Feldberg, and M. Hindsholm, “The coreworld: emergence and evolution of cooperative structures in a computational chemistry,” in Emergent computation, Cambridge, MA, USA: MIT Press, 1991, pp. 111–134.</li>
+  <li>E. Najarro, S. Sudhakaran, and S. Risi, “Towards Self-Assembling Artificial Neural Networks through Neural Developmental Programs,” Jul. 16, 2023, arXiv: arXiv:2307.08197. Accessed: Oct. 03, 2023. [Online]. Available: http://arxiv.org/abs/2307.08197</li>
+  <li>E. Nisioti, E. Plantec, M. Montero, J. Pedersen, and S. Risi, “Growing Artificial Neural Networks for Control: the Role of Neuronal Diversity,” in Proceedings of the Genetic and Evolutionary Computation Conference Companion, Melbourne VIC Australia: ACM, Jul. 2024, pp. 175–178. doi: 10.1145/3638530.3654356.</li>
+
+                </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+<section class="call-section bg-light" id="call" style="margin-top: 50px;" >
+    <div class="container px-4 px-lg-5">
+
+        <div class="row gx-4 gx-lg-5 justify-content-center align-items-left">
+            <div class="col-lg-8" >
+
+
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-black mb-4">Call for papers</h2>
+            </div>
+        </div>
+
+                <p class="text-black  justify-content-left" style="margin-bottom: 15px;">
+                    We invite authors to <a  href="https://ssl.linklings.net/conferences/gecco"> submit  papers through the Gecco submission system </a> focused on the above subjects.
+                    We encourage two categories of submissions: papers of up to four pages showcasing early research ideas and papers
+                    up to 8 pages presenting more substantial contributions (such as technical contributions, benchmarks, negative results, surveys).
+                    Page count excludes references and appendices and submissions should follow the <a href="https://gecco-2025.sigevo.org/Paper-Submission-Instructions"> Gecco format </a> .
+                    We encourage submissions related to evolution and self-organisation that address the following questions:
                 </p>
 
-                <p class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
-Our workshop aims at inviting experts to submit their work and join our discussions on questions such as:
-                </p>
 
-
-                <ul class="text-white-50  justify-content-left" style="margin-bottom: 15px;">
-                    <span style ="color: white;">
+                <ul class="text-black  justify-content-left" style="margin-bottom: 15px;">
+                    <span style ="color: black;">
 
                         <li style="margin-bottom: 15px;"> How can we evolve artificial systems that exhibit robustness, generalisation and adaptability?</li>
-                        <li style="margin-bottom: 15px;"> How can we analyse the trainability/navigability of self-organising systems?</li>
+                        <li style="margin-bottom: 15px;"> What properties are missing from current self-organising systems? Can we design new ones?</li>
+                        <li style="margin-bottom: 15px;"> How can we analyse the trainability/navigability of self-organising systems? </li>
+                        <li style="margin-bottom: 15px;"> How can evolutionary processes such as self-replication emerge in a self-organising system?</li>
                         <li style="margin-bottom: 15px;"> Which benchmarks/environments will reveal the benefit of self-organising systems?</li>
                         <li style="margin-bottom: 15px;"> Which scientific and engineering domains would benefit from the development of such systems?</li>
-
                         </span>
 
                 </ul>
@@ -133,33 +204,10 @@ Our workshop aims at inviting experts to submit their work and join our discussi
         </div>
     </div>
 </section>
-<!-- Speakers -->
-<section class="projects-section bg-light" id="speakers">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-2">
-                <h2 class="text-black mb-4">Speakers</h2>
-
-                TBA
-            </div>
-        </div>
-    </div>
 
 
-</section>
 
-<!-- Schedule -->
 
-<section class="projects-section bg-light" id="schedule">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-2" style="text-align: center;">
-                <h2 class="text-black mb-4">Schedule</h2>
-                <p> TBA </p>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- Organizers -->
 <section class="projects-section bg-dark" id="organizers">
     <div class="container px-4 px-lg-5">
@@ -215,27 +263,21 @@ Our workshop aims at inviting experts to submit their work and join our discussi
 
 
 </section>
-<!-- Advisors -->
-<section class="projects-section bg-white" id="advisors">
+
+
+
+<section class="projects-section bg-black" id="contact" style="padding: 2rem 0;">
     <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-3">
-                <h2 class="text-black mb-4">Advisory board</h2>
-
-                TBA
+            <div class="col-lg-8">
+                <h2 class="text-white-50 mb-4">Contact</h2>
+                <p class="text-white-50 mb-4">If you have any questions regarding the workshop, you can reach out to enis@itu.dk.</p>
             </div>
         </div>
     </div>
-
-    <div class="container px-4 px-lg-5">
-
-
-
-        <!-- Featured Project Row-->
-    </div>
-
-
 </section>
+
+
 <!-- Footer-->
 <footer class="footer bg-black small text-center text-white-50">
     <div class="container px-4 px-lg-5">
